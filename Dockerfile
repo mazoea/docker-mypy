@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3-alpine
 
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir mypy && \
